@@ -18,4 +18,14 @@ const Player = (props) => {
   )
 }
 
+// Set default props
+Player.defaultProps = {
+  name: "Name",   
+  team: "Team",
+  nationality: "Nationality",
+  jerseyNumber: "Jersey Number",
+  age: "Age",
+  image: "Image",
+ };
+
 export default Player
